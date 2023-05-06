@@ -84,6 +84,7 @@ export default function App() {
           }}
         />
         <Scripts />
+        {/* TODO: Is <LiveReload /> component responsible for live preview updates? Can we fix it such that when longer tasks such as uploading an image is occuring, the live preview should not break. */}
         <LiveReload />
       </body>
     </html>
